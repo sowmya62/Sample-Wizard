@@ -1,0 +1,268 @@
+{
+    "status": "OK",
+    "message": {
+        "data": {
+            "step_creation": {
+                "fields": [
+                    {
+                        "label": "Step Name*",
+                        "key": "stepName",
+                        "type": "text",
+                        "placeholder": "Enter Step Name",
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Step Name is mandatory"
+                            },
+                            {
+                                "rule": "pattern",
+                                "value": "^(?!\\s*$).+",
+                                "message": "Step Name is not allowed"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Icon*",
+                        "key": "imageUrl",
+                        "type": "select",
+                        "placeholder": "Please Select Icon",
+                        "allowClear": true,
+                        "options": [
+                            {
+                                "value": "Icon 1",
+                                "label": "Icon 1"
+                            },
+                            {
+                                "value": "Icon 2",
+                                "label": "Icon 2"
+                            },
+                            {
+                                "value": "Icon 3",
+                                "label": "Icon 3"
+                            }
+                        ],
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Step Icon is mandatory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "step_icons": {
+                "fields": [
+                    {
+                        "label": "Upload File*",
+                        "key": "selectFile",
+                        "type": "file",
+                        "placeholder": "",
+                        "btn_name": "Browse",
+                        "allow_multiple_files": false,
+                        "max_file_size": 2097152,
+                        "upload_img": "assets/images/uploadFile.png",
+                        "info_msgs": [
+                            "* File size must be less than 2mb.",
+                            "* Only .png,.gif,.jpeg,.jpg formats supported."
+                        ],
+                        "accepted_types": ".png,.gif,.jpeg,.jpg",
+                        "validation": []
+                    },
+                    {
+                        "label": "Rename file (Optional)",
+                        "key": "renameFile",
+                        "type": "text",
+                        "placeholder": "Enter Name",
+                        "validation": [
+                            {
+                                "rule": "pattern",
+                                "value": "^(?!\\s*$).+",
+                                "message": "Step Name is not allowed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "define_process_area": {
+                "fields": [
+                    {
+                        "label": "Process Area*",
+                        "key": "processArea",
+                        "type": "text",
+                        "placeholder": "Enter Process Area",
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Process Area is mandatory"
+                            },
+                            {
+                                "rule": "pattern",
+                                "value": "^(?!\\s*$).+",
+                                "message": "Process Area is not allowed"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Description",
+                        "key": "description_process_area",
+                        "type": "text",
+                        "placeholder": "Description",
+                        "validation":[]
+                    }
+                ]
+            },
+            "steps_to_process_area": {
+                "fields": [
+                    {
+                        "label": "Process Area*",
+                        "key": "processArea",
+                        "type": "select",
+                        "placeholder": "Please Select process area",
+                        "allowClear": true,
+                        "options": [
+                            {
+                                "value": "pa1",
+                                "label": "pa1"
+                            },
+                            {
+                                "value": "pa2",
+                                "label": "pa2"
+                            },
+                            {
+                                "value": "pa3",
+                                "label": "pa3"
+                            }
+                        ],
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Process Area is mandatory"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Step*",
+                        "key": "step",
+                        "type": "select",
+                        "placeholder": "Please Select step",
+                        "allowClear": true,
+                        "options": [
+                            {
+                                "value": "st1",
+                                "label": "st1"
+                            },
+                            {
+                                "value": "st2",
+                                "label": "st2"
+                            },
+                            {
+                                "value": "st3",
+                                "label": "st3"
+                            }
+                        ],
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Step is mandatory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "define_product_family": {
+                "fields": [
+                    {
+                        "label": "Product family*",
+                        "key": "productFamily",
+                        "type": "text",
+                        "placeholder": "Enter Product family",
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Product family is mandatory"
+                            },
+                            {
+                                "rule": "pattern",
+                                "value": "^(?!\\s*$).+",
+                                "message": "Product family is not allowed"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Description",
+                        "key": "description_process_area",
+                        "type": "text",
+                        "placeholder": "Description",
+                        "validation":[]
+                    }
+                ]
+            },
+            "steps_to_product_family": {
+                "fields": [
+                    {
+                        "label": "Product family*",
+                        "key": "productFamily",
+                        "type": "select",
+                        "placeholder": "Please Select product family",
+                        "allowClear": true,
+                        "options": [
+                            {
+                                "value": "pf1",
+                                "label": "pf1"
+                            },
+                            {
+                                "value": "pf2",
+                                "label": "pf2"
+                            },
+                            {
+                                "value": "pf3",
+                                "label": "pf3"
+                            }
+                        ],
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Product Family is mandatory"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Step*",
+                        "key": "step",
+                        "type": "select",
+                        "placeholder": "Please Select step",
+                        "allowClear": true,
+                        "options": [
+                            {
+                                "value": "st1",
+                                "label": "st1"
+                            },
+                            {
+                                "value": "st2",
+                                "label": "st2"
+                            },
+                            {
+                                "value": "st3",
+                                "label": "st3"
+                            }
+                        ],
+                        "validation": [
+                            {
+                                "rule": "required",
+                                "value": "",
+                                "message": "Step is mandatory"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

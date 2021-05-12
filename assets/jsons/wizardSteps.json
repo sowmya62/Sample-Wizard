@@ -1,0 +1,94 @@
+{
+    "status": "OK",
+    "message": {
+        "steps": {
+            "create_step" : [
+                {
+                    "label":"Step Creation",
+                    "key":"step_creation"
+                },
+                {
+                    "label":"Step Icons",
+                    "key":"step_icons"
+                },
+                {
+                    "label":"Define Process area",
+                    "key":"define_process_area"
+                },
+                {
+                    "label":"Steps to Process area",
+                    "key":"steps_to_process_area"
+                },
+                {
+                    "label":"Define Product family",
+                    "key":"define_product_family"
+                },
+                {
+                    "label":"Steps to Product family",
+                    "key":"steps_to_product_family"
+                }
+            ],
+            "create_parameter": [
+                {
+                    "label":"Create Parameter Attribute",
+                    "key":"create_parameter_attribute"
+                },
+                {
+                    "label":"Create Parameter Type",
+                    "key":"create_parameter_type"
+                },
+                {
+                    "label":"Create Parameter",
+                    "key":"create_parameter"
+                },
+                {
+                    "label":"General Parameter Set/Site Parameter Set",
+                    "key":"parameter_set"
+                }
+            ],
+            "create _equipment_parameter": [
+                {
+                    "label":"Create Parameter Attribute",
+                    "key":"create_parameter_attribute"
+                },
+                {
+                    "label":"Create Equipment Parameter Type",
+                    "key":"create_equipment_parameter_type"
+                },
+                {
+                    "label":"Create Equipment Parameter",
+                    "key":"create_equipment_parameter"
+                }
+            ],
+            "create_equipment_class": [
+                {
+                    "label":"Define Equipment Class",
+                    "key":"define_equipment_class"
+                },
+                {
+                    "label":"Equipment Class Parameters",
+                    "key":"equipment_class_parameters"
+                },
+                {
+                    "label":"Equipment Class to Step",
+                    "key":"equipment_class_to_step"
+                }
+
+            ],
+            "create_equipment": [
+                {
+                    "label":"Define Equipment",
+                    "key":"define_equipment"
+                },
+                {
+                    "label":"Equipment Parameters",
+                    "key":"equipment_parameters"
+                },
+                {
+                    "label":"Equipment to Site",
+                    "key":"equipment_to_site"
+                }
+            ]
+        }
+    }
+}

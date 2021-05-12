@@ -1,0 +1,42 @@
+{
+    "status": "OK",
+    "message": {
+        "data": [
+            {
+                "label": "Step Creation under product family",
+                "key": "create_step",
+                "image": "assets/images/noun_867990_0070c0.svg"
+            },
+            {
+                "label": "Create Parameter",
+                "key": "create_parameter",
+                "image": "assets/images/noun_336825_0070c0.svg"
+            },
+            {
+                "label": "Create Equipment Parameter",
+                "key": "create _equipment_parameter",
+                "image": "assets/images/noun_336825_0070c0.svg"
+            },
+            {
+                "label": "Create Equipment Class",
+                "key": "create_equipment_class",
+                "image": "assets/images/noun_867990_0070c0.svg"
+            },
+            {
+                "label": "Create Equipment",
+                "key": "create_equipment",
+                "image": "assets/images/noun_897940_0070c0.svg"
+            },
+            {
+                "label": "Create Activity Template",
+                "key":"Create_activity_template",
+                "image": "assets/images/noun_867990_0070c0.svg"
+            },
+            {
+                "label": "Create Sampling Template",
+                "key":"Create_sampling_template",
+                "image": "assets/images/noun_336825_0070c0.svg"
+            }
+        ]
+    }
+}
